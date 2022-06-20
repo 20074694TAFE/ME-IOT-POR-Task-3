@@ -1,3 +1,4 @@
+from telnetlib import GA
 import time
 from blinkable import Blinkable
 from smiley import Smiley
@@ -35,7 +36,7 @@ class Happy(Smiley, Blinkable):
         for pixel in eyes:
             self.pixels[pixel] = self.BLANK if wide_open else self.YELLOW
 
-    def blink(self, delay=0.25):
+    def blink(self, delay=1):
         """
         Make the happy smiley blink once with a certain delay (in s).
         This is the implementation of the abstract method from the

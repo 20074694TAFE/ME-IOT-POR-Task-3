@@ -1,5 +1,5 @@
-from sense_hat import SenseHat
-
+# from sense_hat import SenseHat
+from imitator import SenseHat
 
 class Smiley:
     WHITE = (255, 255, 255)
