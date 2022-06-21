@@ -19,6 +19,8 @@ class SenseHat:
                 print("\033[2;31;43m ", end='')
             elif pixels[i] == (0, 0, 0):
                 print("\033[2;31;40m ", end='')
+            elif pixels[i] == (0, 0, 255):
+                print("\033[2;31;44m ", end='')
             else:
                 print("\033[2;31;40m ", end='')
         print("\033[2;31;40m ")

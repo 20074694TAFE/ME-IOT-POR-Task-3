@@ -1,5 +1,6 @@
 import time
 from happy import Happy
+from sad import Sad
 
 # Create a happy smiley, which is a subclass of Smiley
 smiley = Happy()
