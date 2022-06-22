@@ -3,7 +3,7 @@ from happy import Happy
 from sad import Sad
 
 # Create a happy smiley, which is a subclass of Smiley
-smiley = Happy()
+smiley = Sad()
 
 # This is a form of #polymorphis, as the Happy smiley class
 # does not have a method called .show(). This means that
